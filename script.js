@@ -35,5 +35,3 @@ function showMessage(text, type) {
         msgBox.remove();
     }, 3000);
 }
-
-
