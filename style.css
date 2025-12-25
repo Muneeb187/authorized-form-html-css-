@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: sticky;
+    background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fitac.ca%2Fwp-content%2Fuploads%2F2014%2F05%2Fmicrosoft-logo.jpg&tbnid=586o2IrBoutmPM&vet=12ahUKEwjdy5OcvY2EAxXJY6QEHQMlB5AQMygregUIARDWAQ..i&imgrefurl=https%3A%2F%2Fitac.ca%2Fblog%2Fmicrosoft-announces-new-vancouver-innovation-centre%2Fmicrosoft-logo%2F&docid=hsj19hoiQD4oIM&w=1242&h=643&q=microsoft%20%3Bogo&ved=2ahUKEwjdy5OcvY2EAxXJY6QEHQMlB5AQMygregUIARDWAQ");
+    height: 300px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: 123px;
+    object-fit: cover;
+    object-position: 80% 100%;
+    background-color: rgba(223, 237, 250, 0.322);
+    font-family: "Segoe UI Webfont", -apple-system, "Helvetica Neue", "Lucida Grande", "Roboto", "Ebrima", "Nirmala UI", "Gadugi", "Segoe Xbox Symbol", "Segoe UI Symbol", "Meiryo UI", "Khmer UI", "Tunga", "Lao UI", "Raavi", "Iskoola Pota", "Latha", "Leelawadee", "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Cambria Math";
+}
+
+.container {
+    position: sticky;
+    padding: 44px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
+    margin-top: 63px;
+    margin-left: 436px;
+    width: 34vw;
+    height: 75vh;
+    background-color: #fff;
+    /* line-height: 20px; */
+
+}
+
+.container img {
+    position: sticky;
+    height: 50px;
+    padding: 10px;
+}
+
+.gmail {
+    line-height: 24px;
+    margin: 5px;
+}
+
+.password {
+    font-family: "Segoe UI", "Helvetica Neue", "Lucida Grande", "Roboto", "Ebrima", "Nirmala UI", "Gadugi", "Segoe Xbox Symbol", "Segoe UI Symbol", "Meiryo UI", "Khmer UI", "Tunga", "Lao UI", "Raavi", "Iskoola Pota", "Latha", "Leelawadee", "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Cambria Math";
+    font-size: 15px;
+    color: #1b1b1b;
+    opacity: 11px;
+    cursor: text;
+}
+
+
+
+.pass-bar {
+    text-shadow: whitesmoke;
+    text-anchor: start;
+    cursor: text;
+}
+
+.Links {
+    display: grid;
+    font-size: 13px;
+    color: #0067b8;
+    cursor: pointer;
+    justify-items: start;
+    align-items: start;
+    justify-content: start;
+}
+
+.Links a {
+    background-color: none;
+    text-decoration: none;
+    color: #0067b8;
+}
+
+a:hover {
+    background-color: none;
+    text-decoration: none;
+    color: #000;
+}
+
+
+.button :first-child {
+    margin-top: 15px;
+    margin-left: 264px;
+    padding-right: 19px;
+    width: 8vw;
+    color: white;
+    background-color: #1877f2;
+    border: none;
+    padding: 0px 16px;
+    height: 5vh;
+    text-align: center;
+}
+
+.button :hover {
+    background-color: #1070ee;
+}
+
+
+.Form-Animation {
+    animation-delay: 1ms;
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: none;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 500%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 300%;
+    }
+}
