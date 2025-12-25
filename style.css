@@ -117,3 +117,53 @@ body {
         max-width: 460px;
     }
 }
+
+
+/* Message Box */
+.message {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    font-size: 13px;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Success */
+.message.success {
+    background-color: #e6f4ea;
+    color: #1e7e34;
+    border: 1px solid #b7dfc1;
+}
+
+/* Info */
+.message.info {
+    background-color: #e7f1ff;
+    color: #004085;
+    border: 1px solid #b8daff;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Cursor + Active Feel */
+button,
+.Links a {
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+.Links a:active {
+    color: #1877f2;
+}
